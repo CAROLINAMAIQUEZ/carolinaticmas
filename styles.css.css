@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
+body {
+    background-color: #fffdf8;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h2 {
+    font-family: 'Lobster';
+    text-align: center; 
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+h3 {
+    font-size: 1.1em;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+.fotoperfil{
+  display: block;
+  margin: auto;
+
+}
+/*** MENU ***/
+.navbar-brand {
+    margin-top: -22px;
+}
+.navbar-default {
+    border-radius: 0px;
+    border-bottom: 2px, #fffdf8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.7em;
+}
+.page-scroll{
+    font-family: 'Trebuchet MS';
+    font-style: oblique;
+}
+.navbar-default .navbar-nav li a {
+    color: #fffdf8;
+}
+.navbar-default .navbar-nav li a:hover, 
+.navbar-default .navbar-nav li a:focus {
+    color: palevioletred;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: palevioletred;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgb(115, 57, 125); 
+}
+
+.affix {
+  background-color: #fffdf8;
+  padding:0px;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+}
+
+.affix-top {
+  padding-top:15px;
+  padding-bottom:15px;
+  -webkit-transition:padding 0.5s linear;
+  -moz-transition:padding 0.5s linear;  
+  -o-transition:padding 0.5s linear;         
+  transition:padding 0.5s linear;  
+}
+
+header .social-network {
+
+    font-size: 0.6em; 
+    justify-content: cente; 
+}
+.social-network .fa {
+    color: #4f929f;
+}
+
+.image-bg1 { 
+ background: url('https://img.freepik.com/foto-gratis/encendido-computadora-portatil-gris_400718-47.jpg?w=740&t=st=1673909193~exp=1673909793~hmac=63dae028323a2bc6e640b506e30e2e237baaae748e123d27fe86ecb898fe2ebd') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;  
+    min-height: 878px;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    color: #fffdf8;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 6em;
+    
+}
+ .sous-titre{
+    font-size: 2.5em;
+    color: #fffdf8;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -30px;
+}
+
+.about {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: #151514;
+    border-radius: 30px;
+     
+    background-color:palevioletred; 
+}
+.about p {
+    margin-bottom: 80px;
+    text-align: center; 
+}
+.lic{
+    font-family: 'Segoe UI';
+    font-size: medium;
+}
+
+/************* PORTFOLIO *************/
+
+.folio, .skills, .cv {
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    background-color: #fffdf8;
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+.thumbnail img {
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    padding: 5px;
+    
+}
+.thumbnail {
+    overflow: hidden;
+    border: none;
+    box-shadow: 1px 1px 5px #222222; 
+    background-color: #eddbc3;
+}
+
+.frame {
+    background-color: #4f929f;
+    padding-top: 15px;
+    
+}
+.frame h3 {
+    background-color: #4f929f;
+    color: #eddbc3;
+    margin-top: -15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center; 
+}
+.soon img:hover{
+   transform: none;
+    -webkit-filter: grayscale(0%); 
+    filter: none;  
+}
+.soon img{
+    -webkit-filter: grayscale(0%);
+   filter: none;  
+}
+.soon h3{
+    color: transparent;
+}
+
+ 	
+.skills h3 {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: -35px;
+    padding: 50px;
+} 
+
+
+.separator {
+    background-color: #4f929f;
+    height: 30px;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+    color: palevioletred;
+}
+.carousel {
+    margin: 50px;
+}
+.date {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.cv {
+    margin-bottom: 50px;
+    background-color: #fffdf8;
+    min-height: 780px;
+    
+}
+.cv h3 {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: -35px;
+    padding: 50px;
+} 
+.cv .btn {
+    margin-top: 20px;
+}
+
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    color: #eee0bc;
+    text-align: center; 
+    background-color: transparent;
+    min-height: 500px;
+     background: url('https://img.freepik.com/vector-gratis/vector-ilustracion-fondo-azul-conexion-todo-mundo_53876-80910.jpg?w=740&t=st=1673916489~exp=1673917089~hmac=d0132986dc49e674fe0c8841a24c00be4a51867c8454a3ca168208be62a7426a') no-repeat center center scroll;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;  
+    
+}
+footer img {
+    border: 6px;
+    border-style: solid;
+    border-color: #4f929f;
+    border-radius: 100%;
+
+}
+footer .conclusion {
+    padding: 0px 0px 40px 0px;
+}
+
+.form-control {
+	height: 35px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    background-color: rgba(255, 243, 248, 0.6);
+}
+.form-control-feedback {
+	color: #4f929f;
+}
+.has-feedback label.sr-only ~ .form-control-feedback {
+	top: 10px;
+}
+textarea {
+	resize: vertical;
+}
+form .btn {
+    min-width: 30%;
+    color: #4f929f;
+    background-color: #fffdf8;
+    margin-bottom: 50px;
+}
+form .btn:hover {
+    color: rgb(125, 178, 231);
+}
+
+p .fa-envelope {
+    padding-top: 30px;
+}
+
+.social-network i {
+    background-color: #fffdf8;
+    border-radius: 100%;
+    color: #4f929f;
+    padding: 5px 6px 5px 6px;
+    margin: 13px 0px 0px 5px;
+    
+}
+
+.social-network i:hover {
+    color: palevioletred;
+}
+.cr {
+    font-size: 0.8em;
+}
+.contacto{
+    font-family: 'Trebuchet MS';
+    font-size: xx-large;
+    border-radius: 30px;
+    background-color: #4f929f;
+   border-color: #4f929f;
+}
+
+.formu{
+   font-family: 'Franklin Gothic Medium';
+   border-bottom: #4f929f;
+   align-items: center;
+
+}
+.datos{
+    justify-items:baseline;
+    font-family:'Trebuchet MS';
+}
